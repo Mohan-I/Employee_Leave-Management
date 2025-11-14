@@ -72,11 +72,11 @@ A comprehensive desktop application for managing employee leave requests and app
 
 2. **Database Configuration**
    ```sql
-   CREATE DATABASE employee_management;
-   USE employee_management;
+   CREATE DATABASE employee;
+   USE employee;
    ```
 
-3. **Create Tables**
+3. **Create Tables (or import the sql file)**
    ```sql
    CREATE TABLE employee (
        id INT PRIMARY KEY AUTO_INCREMENT,
