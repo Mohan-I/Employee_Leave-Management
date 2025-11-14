@@ -65,7 +65,7 @@ A comprehensive desktop application for managing employee leave requests and app
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/employee-leave-management.git
+   git clone https://github.com/mohan-i/employee-leave-management.git
    cd employee-leave-management
    ```
 
@@ -260,7 +260,7 @@ We welcome contributions! Please follow these steps:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Free License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Maintainers
 
@@ -271,7 +271,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For support and queries, please contact the development team or create an issue in the repository.
-
+email id: mohanshyadav@gmail.com
 ---
 
 **⭐ Star this repo if you find it helpful!**
