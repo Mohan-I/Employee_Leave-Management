@@ -1,0 +1,133 @@
+
+Project Name: Employee Leave Management System
+Technology Stack: JavaFX, MySQL, JDBC
+Architecture: MVC Pattern with FXML for UI
+Build Tool: Maven (Apache NetBeans)
+Java Version: Java 11+
+
+Project Co-ordinator  : Mr. Amitanand Mishra
+Team Leader: Mohan Yadav
+Other Members: Anuj Yadav, Suraj Yadav, Sagar Tayade
+
+The Folder App_Images is given for using sample employee images
+
+File Structure:
+
+EmplManage/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/tcet/emplmanage/
+│   │   │       ├── App.java                 # Main application entry point
+│   │   │       ├── PrimaryController.java   # Admin login controller
+│   │   │       ├── EmployeeLoginController.java # Employee login & dashboard
+│   │   │       ├── DashboardController.java # Admin dashboard
+│   │   │       ├── SecondaryController.java # Employee dashboard (FXML-based)
+│   │   │       ├── database.java           # Database connection handler
+│   │   │       ├── getData.java            # Data transfer object
+│   │   │       └── employeeData.java       # Employee data model
+│   │   └── resources/
+│   │       └── com/tcet/emplmanage/
+│   │           ├── primary.fxml            # Admin login UI
+│   │           ├── dashboard.fxml          # Admin dashboard UI
+│   │           ├── emp_log.fxml            # Employee login UI
+│   │           ├── secondary.fxml          # Employee dashboard UI
+│   │           └── *.css                   # Stylesheets
+└── pom.xml
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Projects fx:id fields:
+////////////////////////////////// Employee Leaves
+emp_leaves_section
+------------------
+table_col_empID
+table_col_fullname
+table_col_leavefrom
+table_col_leaveto
+table_col_status
+
+search_Bar
+
+employee_ID
+emp_fullname
+emp_position
+emp_leavefrom
+emp_leaveto
+emp_leavedays
+emp_remarks
+emp_status
+
+
+emp_tableView
+
+
+emp_updateBtn
+emp_clearBtn
+
+
+
+
+
+//////////////////////////////// Add Employees
+emp_add_section		
+//table data
+--------------
+view_col_empID
+view_col_fullname
+view_col_position
+view_col_leavefrom
+view_col_leaveto
+view_col_leavedays
+view_col_remarks
+view_col_status
+
+search_Bar_A
+//search_bar
+
+//form data 
+form_emp_ID
+form_fullname
+form_position
+form_leavefrom
+form_leaveto
+form_leavedays
+form_remarks
+form_status
+
+form_image
+
+form_tableView
+
+form_addBtn
+form_deleteBtn
+form_updateBtn
+form_clearBtn
+form_importBtn
+
+////////////////////////////////// Home
+home_section
+------------
+home_totalEmployees
+home_activeEmployees
+home_inactiveEmployees
+home_chart
+
+///////////////////////////////// Database Fields
+[------Name-----|-----Type-----|-----Length/Values-----]
+id		int
+emp_ID		varchar		10
+fullname	varchar		100
+position	varchar		100
+leave_from	date
+leave_to	date
+remarks		text
+status		enum           ('Active','Pending','Absent','Leave-Approved','Leave-Rejected','Already on leave','Terminated')
+password	varchar		225
+image		varchar		225
+
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
