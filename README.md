@@ -37,9 +37,8 @@ A comprehensive desktop application for managing employee leave requests and app
 - **Real-time Updates** - Instant notification of leave approval/rejection
 - **Profile Management** - View and update personal details
 
-## 🖼️ Screenshots
+## 🖼️ Screenshots(In_Updates: Coming Soon!)
 
-*(Screenshot placeholders - add actual images here)*
 - Admin Login Interface
 - Employee Dashboard
 - Leave Management Panel
