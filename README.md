@@ -40,8 +40,11 @@ A comprehensive desktop application for managing employee leave requests and app
 ## 🖼️ Screenshots(In_Updates: Coming Soon!)
 
 - Admin Login Interface
+  ![Admin Login Interface](https://github.com/Mohan-I/Employee_Leave-Management/blob/main/sample%20images/app_faces/Screenshot%202025-11-13%20210801.png)
 - Employee Dashboard
+  ![Employee Dashboard](https://github.com/Mohan-I/Employee_Leave-Management/blob/main/sample%20images/app_faces/Screenshot%202025-11-09%20171248.png?raw=true)
 - Leave Management Panel
+  
 - Employee Directory
 
 ## 🛠️ Technology Stack
