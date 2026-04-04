@@ -37,16 +37,16 @@ A comprehensive desktop application for managing employee leave requests and app
 - **Real-time Updates** - Instant notification of leave approval/rejection
 - **Profile Management** - View and update personal details
 
-## 🖼️ Screenshots(In_Updates: Coming Soon!)
+## 🖼️ Screenshots
 
-- Admin Login Interface
-  ![Admin Login Interface](https://github.com/Mohan-I/Employee_Leave-Management/blob/main/sample%20images/app_faces/Screenshot%202025-11-13%20210801.png)
-- Employee Dashboard
+- Admin Dashboard
+  ![Admin Login Interface](https://github.com/Mohan-I/Employee_Leave-Management/blob/main/sample%20images/app_faces/Screenshot%202026-04-04%20181932.png)
+- Employee Dashboard Schema
   ![Employee Dashboard](https://github.com/Mohan-I/Employee_Leave-Management/blob/main/sample%20images/app_faces/Screenshot%202025-11-09%20171248.png?raw=true)
 - Leave Management Panel
-  
-- Employee Directory
-
+  ![Employee Dashboard](https://github.com/Mohan-I/Employee_Leave-Management/blob/main/sample%20images/app_faces/Screenshot%202026-04-04%20190259.png)
+- Employee / Admin Login Interface
+  ![Employee Dashboard](https://github.com/Mohan-I/Employee_Leave-Management/blob/main/sample%20images/app_faces/Screenshot%202025-11-13%20210801.png)
 ## 🛠️ Technology Stack
 
 - **Frontend:** JavaFX, FXML, CSS
